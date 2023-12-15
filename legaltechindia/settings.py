@@ -24,16 +24,28 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-despjzhe^7hx5(x93f3e1h(ao^)1@#6uqz-0og^bhrqdy_$d=b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://legaltechindia.in',
-    'https://lti.up.railway.app',
 ]
 
+CORS_ALLOW_CREDENTIALS = True
 
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_REPLACE_HTTPS_REFERER = True
+
+CSRF_COOKIE_DOMAIN = 'legaltechindia.in'
+
+CORS_ORIGIN_WHITELIST = (
+    'https://legaltechindia.in/',
+    'legaltechindia.in',
+)
 # Application definition
 
 INSTALLED_APPS = [
