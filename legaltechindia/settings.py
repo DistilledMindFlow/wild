@@ -42,10 +42,6 @@ CORS_REPLACE_HTTPS_REFERER = True
 
 CSRF_COOKIE_DOMAIN = 'legaltechindia.in'
 
-CORS_ORIGIN_WHITELIST = (
-    'https://legaltechindia.in/',
-    'legaltechindia.in',
-)
 # Application definition
 
 INSTALLED_APPS = [
