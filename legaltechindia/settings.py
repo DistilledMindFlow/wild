@@ -28,20 +28,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = [
-    'https://legaltechindia.in',
-]
-
-CORS_ALLOW_CREDENTIALS = True
-
-CORS_ORIGIN_ALLOW_ALL = True
-
-CORS_ALLOW_CREDENTIALS = True
-
-CORS_REPLACE_HTTPS_REFERER = True
-
-CSRF_COOKIE_DOMAIN = 'legaltechindia.in'
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -64,6 +50,20 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://legaltechindia.in',
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_REPLACE_HTTPS_REFERER = True
+
+CSRF_COOKIE_DOMAIN = 'legaltechindia.in'
 
 ROOT_URLCONF = 'legaltechindia.urls'
 
