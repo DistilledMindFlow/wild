@@ -53,6 +53,8 @@ MIDDLEWARE = [
 
 CSRF_TRUSTED_ORIGINS = [
     'https://legaltechindia.in',
+    'https://www.legaltechindia.in',
+
 ]
 
 CORS_ALLOW_CREDENTIALS = True
