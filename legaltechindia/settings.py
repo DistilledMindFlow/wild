@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-despjzhe^7hx5(x93f3e1h(ao^)1@#6uqz-0og^bhrqdy_$d=b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['legaltechindia.in', 'www.legaltechindia.in','127.0.0.1','ansmajid-482371e25c32.herokuapp.com']
+ALLOWED_HOSTS = ['legaltechindia.in', 'www.legaltechindia.in','127.0.0.1','ansmajid-482371e25c32.herokuapp.com','ansmajid.live','www.ansmajid.live']
 
 # Application definition
 
